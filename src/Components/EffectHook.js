@@ -7,7 +7,7 @@ export default function EffectHook() {
   })
   return (
     <div>
-      <button onClick={()=>setCount(count+1)}>Clicked {count} times</button>
+      <button onClick={()=>setCount(prevState=>prevState+1)}>Clicked {count} times</button>
     </div>
   )
 }
