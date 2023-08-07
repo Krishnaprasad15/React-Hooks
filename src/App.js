@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import EffectHook from './Components/EffectHook';
+import HookMouse from './Components/HookMouse';
+// import ConditionalRenderUseEffect from './Components/ConditionalRenderUseEffect';
+// import EffectHook from './Components/EffectHook';
 // import ArrUseState from './Components/ArrUseState';
 // import Counter from './Components/Counter';
 // import Counter1 from './Components/Counter1';
@@ -13,7 +15,9 @@ function App() {
       {/* <Counter1/> */}
       {/* <Counter2/> */}
       {/* <ArrUseState/> */}
-      <EffectHook/>
+      {/* <EffectHook/> */}
+      {/* <ConditionalRenderUseEffect/> */}
+      <HookMouse/>
     </div>
   );
 }
