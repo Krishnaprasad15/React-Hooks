@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import HookMouse from './Components/HookMouse';
+// import HookMouse from './Components/HookMouse';
+import HookMouse2 from './Components/HookMouse2';
 // import ConditionalRenderUseEffect from './Components/ConditionalRenderUseEffect';
 // import EffectHook from './Components/EffectHook';
 // import ArrUseState from './Components/ArrUseState';
@@ -17,7 +18,7 @@ function App() {
       {/* <ArrUseState/> */}
       {/* <EffectHook/> */}
       {/* <ConditionalRenderUseEffect/> */}
-      <HookMouse/>
+      <HookMouse2/>
     </div>
   );
 }

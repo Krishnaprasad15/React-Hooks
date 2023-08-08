@@ -11,6 +11,10 @@ export default function HookMouse() {
     useEffect(()=>{
         console.log("Use effect called")
         window.addEventListener('mouseover',coordinates)
+
+        return ()=>{
+          window.removeEventListener('mouseover',coordinates)
+        }
     },[])
   return (
     <div>
