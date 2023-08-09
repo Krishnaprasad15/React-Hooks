@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import FetchData from './Components/FetchData';
 // import Component1 from './Components/Component1';
-import UseReducer from './Components/UseReducer';
+// import UseReducer from './Components/UseReducer';
 // import DataFetching from './Components/DataFetching';
 // import HookMouse from './Components/HookMouse';
 // import HookMouse2 from './Components/HookMouse2';
@@ -33,7 +34,8 @@ function App() {
             <Component1/>
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      <UseReducer/>
+      {/* <UseReducer/> */}
+      <FetchData/>
     </div>
   );
 }
