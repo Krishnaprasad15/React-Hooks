@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import DataFetching from './Components/DataFetching';
+import React from 'react';
+import Component1 from './Components/Component1';
+// import DataFetching from './Components/DataFetching';
 // import HookMouse from './Components/HookMouse';
 // import HookMouse2 from './Components/HookMouse2';
 // import ConditionalRenderUseEffect from './Components/ConditionalRenderUseEffect';
@@ -11,6 +13,8 @@ import DataFetching from './Components/DataFetching';
 // import Counter2 from './Components/Counter2';
 // import CounterDepend from './Components/CounterDepend';
 
+export const UserContext= React.createContext()
+export const ChannelContext= React.createContext()
 function App() {
   return (
     <div className="App">
@@ -22,7 +26,12 @@ function App() {
       {/* <ConditionalRenderUseEffect/> */}
       {/* <HookMouse2/> */}
       {/* <CounterDepend/> */}
-      <DataFetching/>
+      {/* <DataFetching/> */}
+      <UserContext.Provider value={'krishna'}>
+        <ChannelContext.Provider value={'CodeWithKrishna'}>
+            <Component1/>
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
