@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Component1 from './Components/Component1';
+// import Component1 from './Components/Component1';
+import UseReducer from './Components/UseReducer';
 // import DataFetching from './Components/DataFetching';
 // import HookMouse from './Components/HookMouse';
 // import HookMouse2 from './Components/HookMouse2';
@@ -13,8 +14,8 @@ import Component1 from './Components/Component1';
 // import Counter2 from './Components/Counter2';
 // import CounterDepend from './Components/CounterDepend';
 
-export const UserContext= React.createContext()
-export const ChannelContext= React.createContext()
+// export const UserContext= React.createContext()
+// export const ChannelContext= React.createContext()
 function App() {
   return (
     <div className="App">
@@ -27,11 +28,12 @@ function App() {
       {/* <HookMouse2/> */}
       {/* <CounterDepend/> */}
       {/* <DataFetching/> */}
-      <UserContext.Provider value={'krishna'}>
+      {/* <UserContext.Provider value={'krishna'}>
         <ChannelContext.Provider value={'CodeWithKrishna'}>
             <Component1/>
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <UseReducer/>
     </div>
   );
 }
