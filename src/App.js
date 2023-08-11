@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import DocTitle from './Components/DocTitle';
+import CustomCounter from './Components/CustomCounter';
+// import DocTitle from './Components/DocTitle';
 // import FetchData from './Components/FetchData';
 // import FocusInput from './Components/FocusInput';
 // import HookTimer from './Components/HookTimer';
@@ -41,7 +42,8 @@ function App() {
       {/* <FetchData/> */}
       {/* <FocusInput/> */}
       {/* <HookTimer/> */}
-      <DocTitle/>
+      {/* <DocTitle/> */}
+      <CustomCounter/>
     </div>
   );
 }
