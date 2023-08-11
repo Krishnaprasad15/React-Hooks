@@ -1,9 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import DocTitle from './Components/DocTitle';
 // import FetchData from './Components/FetchData';
 // import FocusInput from './Components/FocusInput';
-import HookTimer from './Components/HookTimer';
+// import HookTimer from './Components/HookTimer';
 // import Component1 from './Components/Component1';
 // import UseReducer from './Components/UseReducer';
 // import DataFetching from './Components/DataFetching';
@@ -39,7 +40,8 @@ function App() {
       {/* <UseReducer/> */}
       {/* <FetchData/> */}
       {/* <FocusInput/> */}
-      <HookTimer/>
+      {/* <HookTimer/> */}
+      <DocTitle/>
     </div>
   );
 }
