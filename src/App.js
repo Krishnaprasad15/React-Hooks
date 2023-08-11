@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import FetchData from './Components/FetchData';
+// import FetchData from './Components/FetchData';
+// import FocusInput from './Components/FocusInput';
+import HookTimer from './Components/HookTimer';
 // import Component1 from './Components/Component1';
 // import UseReducer from './Components/UseReducer';
 // import DataFetching from './Components/DataFetching';
@@ -35,7 +37,9 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider> */}
       {/* <UseReducer/> */}
-      <FetchData/>
+      {/* <FetchData/> */}
+      {/* <FocusInput/> */}
+      <HookTimer/>
     </div>
   );
 }
